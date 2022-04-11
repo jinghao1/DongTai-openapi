@@ -49,7 +49,7 @@ INSTALLED_APPS = [
     'sca',
     'drf_spectacular'
 ]
-
+DEFAULT_AUTO_FIELD='django.db.models.AutoField'
 #
 SPECTACULAR_SETTINGS = {
     'TITLE': 'Your Project API',
